@@ -30,6 +30,6 @@ def printer(a):
     print(f'''\033[0mYour beast is called{a['Beast name']}. It is a {a['Type']} beast with a special move of {a['Special Move']} with a starting HP of {a['HP']} and a starting MP of {a['MP']}''')
 
   else:
-    print(f'''\033[36mYour beast is called {a['Beast name']}. It is a {a['Type']} beast with a special move of {a['Special Move']} with a starting HP of {a['HP']} and a starting MP of {a['MP']}''')
+    print(f'''\033[36mYour beast is called {a['Beast name']}. It is a {a['Type']} beast with a special move of {a['Special Move']} with a starting HP of {a['HP']} and a starting MP of {a['MP']}.''')
 
 printer(dict)
